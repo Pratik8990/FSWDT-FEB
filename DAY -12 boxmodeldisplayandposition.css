@@ -1,0 +1,62 @@
+/* h2{
+    background-color: black;
+    color: white;
+    border: 2px solid red;
+    padding-left: 25px;
+    padding: 10px 10px 10px 10px;
+    margin-left: 20px;
+    margin: 0 0 0 20px;
+    top right bottom left(clock Wise)
+} */
+
+/* 
+Spacings:
+    Padding is internal to Box/Border
+    Margin is external to Box/Border
+*/
+/* ctrl + alt + down key to select all */
+/* block */
+/* .DisplayInCss1{
+    display: block;
+    background-color: yellow;
+    color: aqua;
+    height: 55px;
+    width: 70px;
+}
+.DisplayInCss2{
+    display: block;
+    background-color: red;
+    color: white;
+    height: 45px;
+} */
+ /* .DisplayInCss1{
+    display: inline;
+    background-color: yellow;
+    color: aqua;
+    height: 55px;
+    width: 70px;
+}
+.DisplayInCss2{
+    display: inline;
+    background-color: red;
+    color: white;
+    height: 45px;
+}  */
+/* *{
+    padding: 0;
+    margin: 0;
+} */
+.DisplayInCss1{
+    display: inline-block;
+    background-color: yellow;
+    color: aqua;
+    height: 55px;
+    width: 70px;
+}
+.DisplayInCss2{
+    display: inline-block;
+    background-color: red;
+    color: white;
+    height: 55px;
+    width: 70px;
+} 

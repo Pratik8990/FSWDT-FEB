@@ -1,0 +1,143 @@
+/* 1. Element Selector */
+/* h2{
+    background-color: black;
+    color: yellow;
+} */
+/* p{
+    background-color: black;
+    color: yellow;
+} */
+/* span{
+    background-color: black;
+    color: yellow;
+} */
+
+/* body{
+    background-color: black;
+    border: 2px solid rgb(0, 128, 0);
+    border: 2px dotted rgb(0, 128, 0);
+    border: 2px double rgb(0, 128, 0);
+    border: 2px dashed rgb(0, 128, 0);
+    color: yellow;
+} */
+
+/* 2.Element Selector List */
+/* h2,p,span{
+    background-color: black;
+    color: yellow;
+} */
+
+/* 3.Universal Selector */
+/* *{
+    background-color: black;
+    border: 2px solid rgb(0, 128, 0);
+    border: 2px dotted rgb(0, 128, 0);
+    border: 2px double rgb(0, 128, 0);
+    border: 2px dashed rgb(0, 128, 0);
+    color: yellow;
+} */
+
+/* 4.Id Selector */
+/* #h2count-3{
+    background-color: black;
+    border: 2px solid rgb(0, 128, 0);
+    border: 2px dotted rgb(0, 128, 0);
+    border: 2px double rgb(0, 128, 0);
+    border: 2px dashed rgb(0, 128, 0);
+    color: yellow;
+} */
+/* #spancount-1{
+    background-color: black;
+    border: 2px solid rgb(0, 128, 0);
+    border: 2px dotted rgb(0, 128, 0);
+    border: 2px double rgb(0, 128, 0);
+    border: 2px dashed rgb(0, 128, 0);
+    color: yellow;
+} */
+/* 5.Class Selector */
+/* .h2ClassSelector-1{
+    background-color: black;
+    border: 5px solid greenyellow;
+    border-radius: 100px;
+    color: yellow;
+} */
+/* .h2ClassSelector-2{
+    background-color: grey;
+    border: 5px solid greenyellow;
+    border-radius: 25%;
+    color: red;
+} */
+/* .h2ClassSelector-3{
+    background-color: pink;
+    border: 2px solid greenyellow;
+    border-radius: 25%;
+    color: bisque;
+} */
+/* .h2ClassSelector-4{
+    background-color: violet;
+    border: 2px solid greenyellow;
+    border-radius: 50px; 
+    color: wheat; 
+} */
+/* .spanClassSelector{
+    background-color: black;
+    border: 2px solid greenyellow;
+    border-radius: 50px; 
+     color: wheat;
+} */
+/* .pClassSelector{
+    background-color: violet;
+    border: 2px solid greenyellow;
+    border-radius: 90%;
+    width: 100px;
+    height: 100px;
+    color: wheat;
+} */
+/* Units in CSS */
+/* px, %, vh, vw, rem, em */
+
+/* 6. Decendant Selector */
+/* Parent any child */
+/* li a{
+    background-color: black;
+    color: white;
+} */
+/* a{
+    background-color: black;
+    color: white;
+} */
+/* i{
+    background-color: pink;
+    color: yellow;
+} */
+/* b i{
+    background-color: pink;
+    color: yellow;
+} */
+/* 7. Direct Child */
+/* Parent > Direct child */
+/* u > i{
+    background-color: pink;
+    color: yellow;
+} */
+
+ /* h5{
+    background-color: darkmagenta;
+    color: yellow;
+}   */
+ h6{
+    border: 2px solid black;
+    /* padding: 10px 15px 20px 25px; */
+    /* padding-left: 50%;
+    padding-top: 25%;
+    padding-bottom: 30%; */
+    margin: 30px 25px 20px 10px;
+ }  
+/* span{ 
+    border: 2px solid black;
+    padding: 20px;
+    padding-left: 50px;
+    padding-top: 25px;
+    padding-bottom: 30px;
+} */
+
