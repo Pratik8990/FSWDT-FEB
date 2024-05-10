@@ -1,3 +1,9 @@
+/* *{
+    box-sizing: border-box; 
+}  */
+
+
+
 /* h2{
     background-color: black;
     color: white;
@@ -46,7 +52,7 @@ Spacings:
     padding: 0;
     margin: 0;
 } */
-.DisplayInCss1{
+/* .DisplayInCss1{
     display: inline-block;
     background-color: yellow;
     color: aqua;
@@ -59,4 +65,21 @@ Spacings:
     color: white;
     height: 55px;
     width: 70px;
-} 
+}  */
+/* Static Position */
+/* .positionInCss{
+    position: static;
+    background-color: black;
+    color: white;
+    border: 1px solid red;
+} */
+
+/* Relative Position */
+.positionInCss{
+    position: relative;
+    background-color: black;
+    top: 10px;
+    color: white;
+    border: 1px solid red;
+}
+

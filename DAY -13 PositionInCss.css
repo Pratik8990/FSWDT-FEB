@@ -1,0 +1,79 @@
+/* Position in CSS */
+/* 
+1. Static:
+       >> Its by default
+       >> Hey I just don't wanna fight with anyone else(elements), I will just 
+       occupy some empty space
+*/
+/* div {
+  position: static;
+  background-color: black;
+  color: white;
+  border: 1px solid red;
+} */
+/*
+2. Relative:
+      >> Its relative to its original position/static/default position
+      >> offset (Top, Right, B
+*/
+/* div {
+  position: relative;
+  background-color: black;
+  color: white;
+  border: 1px solid red;
+  top: 15px;
+  left: 10px;
+} */
+
+/* 
+3. Fixed:
+      >> Here the highlightend section will be fixed to a specific position
+      even on scrolling either of the direction
+*/
+/* div {
+  position: fixed;
+  background-color: black;
+  color: white;
+  border: 1px solid red;
+  top: 15px;
+  left: 10px;
+} */
+
+/* 
+4. Absolute:
+      >> It should always have a parent
+      >> The parent should be of position: relative
+      >> The Offsets values are wrt to the parent not wrt to the entire UI
+      --------------------------------------------------------------------
+      >> If we don't have any parent for position:absolute
+      >> Then by default it consider the body as the parent
+      >> And body exactly acts as relative in nature
+*/
+/* #parent {
+  position: relative;
+  height: 250px;
+  width: 250px;
+  border: 2px dashed black;
+} */
+
+/* .position {
+  position: absolute;
+  background-color: black;
+  color: white;
+  border: 1px solid red;
+  top: 30px;
+  left: 50px;
+} */
+
+/* Sticky:
+      >> It will be scrolled to certain extent and later it 
+          just get fixed or sticked to the position 
+*/
+.position {
+    position: sticky;
+    background-color: black;
+    color: white;
+    border: 1px solid red;
+    top: 190px;
+    left: 50px;
+}
