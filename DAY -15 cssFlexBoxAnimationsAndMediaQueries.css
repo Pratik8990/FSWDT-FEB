@@ -1,0 +1,55 @@
+.parent{
+    background-color: black;
+    display: flex;
+    height: 1150px;
+    /* row, row-rexerse, column, column-reverse */
+    flex-direction: row;
+    gap: 10px;
+    /* flex-start, flex-end, center, space-around, space-between, space-evenly */
+    justify-content: center;
+
+    /* Column: flex-start, flex-end, centr, strech */
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.child{
+    height: 100px;
+    width: 100px;
+    /* flex: 1; */
+    background-color: white;
+    border: 1px solid red;
+    /* margin-right: 10px; */
+    justify-content: center;
+}
+/* .demo1div{ 
+    background-color: blueviolet;
+} */
+
+
+/* Animations */
+button{
+    background-color: black;
+    color: white;
+    margin: 20px;
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* Transition Properties */
+    /* transition-delay: 250ms;  */
+    /* transition-duration: 500ms; */
+    /* all */
+    /* transition-property: background-color color; */
+    /* linear, ease, ease-in, ease-out, ease-in-out */
+    /* transition-timing-function: cubic-bezier(0, 0, 0, 0); */
+
+    
+    transition: all cubic-bezier(0, 0, 0, 0) 250ms 500ms;
+}
+
+button:hover{
+    background-color: aqua;
+    color: black;
+    cursor: pointer;
+}
